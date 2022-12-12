@@ -1,0 +1,189 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-heading {
+  color: #ea580c;
+  font-family: Roboto;
+}
+
+.form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 4px 2px 4px #b8b5b4;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 68px;
+  padding-bottom: 50px;
+  border-radius: 8px;
+}
+
+.first-name-label-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 25px;
+}
+
+.last-name-label-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-family: Roboto;
+  font-weight: 600;
+  align-self: flex-start;
+  margin-bottom: 3px;
+  font-size: 12px;
+  color: #475569;
+}
+
+.first-name-input-field {
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  width: 100%;
+  padding: 8px;
+  padding-left: 14px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.last-name-input-field {
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  width: 100%;
+  padding: 8px;
+  padding-left: 14px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.empty-first-name-input-field {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+  color: #9aa5b1;
+  width: 100%;
+  padding: 8px;
+  padding-left: 14px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.empty-last-name-input-field {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+  color: #9aa5b1;
+  width: 100%;
+  padding: 8px;
+  padding-left: 14px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.error-message {
+  color: #ff0b37;
+  margin-top: 3px;
+  margin-bottom: 0;
+  align-self: flex-start;
+  font-size: 14px;
+}
+
+.submit-button {
+  background-color: #ea580c;
+  font-family: Roboto;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  .submit-button {
+    width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 380px;
+  }
+}
+
+@media (max-width: 435px) {
+  .form {
+    width: 85%;
+  }
+}
+
+/* Submission Acknowledgment CSS */
+
+.submission-acknowledgement-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 4px 2px 4px #b8b5b4;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .submission-acknowledgement-container {
+    width: 380px;
+  }
+}
+
+@media (max-width: 435px) {
+  .submission-acknowledgement-container {
+    width: 85%;
+  }
+}
+
+.green-tick-image {
+  height: 60px;
+  width: 60px;
+}
+
+.submission-status-text {
+  font-family: Roboto;
+  margin-bottom: 28px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.submit-another-response-button {
+  background-color: #ea580c;
+  font-family: Roboto;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
