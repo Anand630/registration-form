@@ -10,7 +10,14 @@ class RegistrationForm extends Component {
     lastNameFieldEmpty: false,
   }
 
-  onFillAnotherForm = () => this.setState({isSubmitted: false})
+  onFillAnotherForm = () =>
+    this.setState({
+      firstName: '',
+      lastName: '',
+      isSubmitted: false,
+      firstNameFieldEmpty: false,
+      lastNameFieldEmpty: false,
+    })
 
   onDataSubmission = e => {
     const {firstName, lastName} = this.state
